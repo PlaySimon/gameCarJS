@@ -1,0 +1,21 @@
+.hide{
+    display: none;
+}
+
+.car{
+    width: 150px;
+    height: 300px;
+    background: transparent url("./image/player.png") center / cover no-repeat;
+}
+
+.car1{
+    width: 100px;
+    height: 200px;
+    background: transparent url("./image/enemy.png") center / cover no-repeat;
+}
+
+.car2{
+    width: 50px;
+    height: 100px;
+    background: transparent url("./image/enemy2.png") center / cover no-repeat;
+}
