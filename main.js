@@ -10,7 +10,6 @@ const score3 = document.getElementsByName();
 const score4 = document.getElementsByTagName();
 const score5 = document.getElementsByTagNameNS();
 */
-
 // new command
 //const score6 = document.querySelectorAll();
 const score = document.querySelector('.score'),    // '#by_ID' 'tag' '.class'
