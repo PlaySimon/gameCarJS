@@ -78,6 +78,7 @@ function startGame() {
 
 
     }
+
     setting.start = true;
     gameArea.appendChild(car);
     setting.x = car.offsetLeft;

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49a069da-3592-453b-a67a-68e562dbc360" name="Default Changelist" comment="" />
+    <list default="true" id="49a069da-3592-453b-a67a-68e562dbc360" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser name="b993dbb4-edd8-42e0-ac28-be362463ad0b" />
+      </EXTENSION>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -110,7 +116,8 @@
       <workItem from="1569256168144" duration="9971000" />
       <workItem from="1569272842901" duration="1612000" />
       <workItem from="1569275711158" duration="1169000" />
-      <workItem from="1569505294416" duration="16291000" />
+      <workItem from="1569505294416" duration="17888000" />
+      <workItem from="1569541049554" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="chapter_2">
       <created>1569538089119</created>
@@ -133,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569539065818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="NeedForJS2">
+      <created>1569539363862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569539363862</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
