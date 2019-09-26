@@ -160,3 +160,4 @@ function stopRun(event) {
 }
 
 document.addEventListener('keyup', stopRun);
+
