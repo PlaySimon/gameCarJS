@@ -1,2 +1,1 @@
 # gameCarJS
-GloAcademy
