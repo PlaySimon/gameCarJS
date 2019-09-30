@@ -40,7 +40,7 @@ const setting = {
 };
 
 function getQuantityElements (heightElement){
-    return  document.documentElement.clientHeight / heightElement +1;
+    return  document.documentElement.clientHeight / heightElement;
 }
 console.log(getQuantityElements(100));
 
@@ -59,13 +59,15 @@ start.onclick = function () {
 function startGame() {
     start.classList.add('hide');
 
-    for (let i = 0; i < getQuantityElements(100); i++){
+    for (let i = 0; i < getQuantityElements(100)+1; i++){
         const line = document.createElement('div');
         line.classList.add('line');
         line.style.top = (i*100) + 'px';
         line.y = i*100;
         gameArea.appendChild(line);
     }
+
+    //let str = './image/enemy2.png';  // use transparent url(${str}) ------ ${str}
 
     for (let i = 0; i < getQuantityElements(100*setting.traffic); i++) {
         const enemy = document.createElement('div');
@@ -74,16 +76,23 @@ function startGame() {
         enemy.style.left = Math.floor(Math.random() * (gameArea.offsetWidth - 50)) + 'px';
         enemy.style.top = enemy.y + 'px';
         enemy.style.background = "transparent url(./image/enemy2.png) center / cover no-repeat";
+        //const enemyImg = Math.floor(Math.random()*(3-1))+1;
+        //enemy.style.background = "transparent url(./image/enemy${enemyImg}.png) center / cover no-repeat";
         gameArea.appendChild(enemy);
-
-
     }
+
+    //setting.name = 'Simon';
+    //setting['my age'] = 33;
+    //let privet = 'Welt';
+    //setting[privet] = 'привет!!!!';
 
     setting.start = true;
     gameArea.appendChild(car);
     setting.x = car.offsetLeft;
     setting.y = car.offsetTop;
     requestAnimationFrame(playGame);
+
+    //console.log(setting);
 };
 
 start.addEventListener('click', startGame);
@@ -93,7 +102,7 @@ start.addEventListener('click', startGame);
 function moveRoad() {
     let lines = document.querySelectorAll('.line');
     lines.forEach(function (itemLine) {
-        console.log(itemLine);
+        //console.log(itemLine);
         itemLine.y += setting.speed;
         itemLine.style.top = itemLine.y + 'px';
 
@@ -148,16 +157,32 @@ function playGame() {
 
 function startRun(event) {
     event.preventDefault();
+    /*
+    if (keys.hasOwnProperty(event.key)){
+        keys[event.key]= true;
+    }
+     */
     // console.log(event.key);
-    keys[event.key]= true;
+    if (event.key in keys){
+        keys[event.key]= true;
+    }
+
 }
 
 document.addEventListener('keydown', startRun);
 
 function stopRun(event) {
     event.preventDefault()
-   // console.log(event.key)
-    keys[event.key]= false;
+    /*
+    if (keys.hasOwnProperty(event.key)){
+        keys[event.key]= false;
+    }
+    */
+        if (event.key in keys){
+            keys[event.key]= false;
+        }
+
+    // console.log(event.key)
 }
 
 document.addEventListener('keyup', stopRun);

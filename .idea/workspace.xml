@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="49a069da-3592-453b-a67a-68e562dbc360" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/enemy.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/enemy1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,6 +34,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Need_For_JS" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -65,6 +70,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -73,7 +79,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -118,6 +128,8 @@
       <workItem from="1569275711158" duration="1169000" />
       <workItem from="1569505294416" duration="17888000" />
       <workItem from="1569541049554" duration="1000" />
+      <workItem from="1569677554918" duration="53000" />
+      <workItem from="1569766632782" duration="9065000" />
     </task>
     <task id="LOCAL-00001" summary="chapter_2">
       <created>1569538089119</created>
